@@ -2,7 +2,8 @@
 
 ![Node.js](https://github.com/nerosnm/quiz/workflows/Node.js/badge.svg)
 
-Quiz is the frontend half of Quizzical, a web app for running virtual pub quizzes.
+Quiz is the frontend half of Quizzical, a web app for running virtual pub quizzes. You can find the 
+backend [here](https://github.com/nerosnm/zical).
 
 ## Dependencies
 
