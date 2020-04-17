@@ -2,8 +2,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "start:dev": "webpack-dev-server --open --config webpack.dev.js",
-    "start:prod": "webpack --config webpack.prod.js && node dist/server.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
     "clean": "rm -rf pkg/ dist/ target/"
   },
   "devDependencies": {

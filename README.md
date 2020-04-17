@@ -20,7 +20,7 @@ First, run `yarn install`, then:
 To build the app and run it using a development server, run:
 
 ```bash
-$ yarn start:dev
+$ yarn start
 ```
 
 ### Production
@@ -34,6 +34,6 @@ $ yarn build
 The app can then be started in production mode with:
 
 ```bash
-$ yarn start:prod
+$ node dist/server.js
 ```
 
