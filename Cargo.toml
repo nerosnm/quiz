@@ -38,3 +38,6 @@ version = "0.13"
 features = [
     "web_sys"
 ]
+
+[dev-dependencies]
+wasm-bindgen-test = "^0.2"
