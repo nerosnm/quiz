@@ -34,7 +34,13 @@ version = "^0.4.4"
 optional = true
 
 [dependencies.yew]
-version = "0.13"
+version = "^0.14.3"
+features = [
+    "web_sys"
+]
+
+[dependencies.yew-router]
+version = "^0.11.0"
 features = [
     "web_sys"
 ]

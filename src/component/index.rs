@@ -1,7 +1,7 @@
-//  app.rs
+//  component/index.rs
 //  quiz
 //
-//  Created by Søren Mortensen <soren@neros.dev> on 2020-04-16.
+//  Created by Søren Mortensen <soren@neros.dev> on 2020-04-17.
 //  Copyright (c) 2020 Søren Mortensen.
 //
 //  Licensed under the Apache License, Version 2.0, <LICENSE-APACHE or
@@ -10,26 +10,15 @@
 //  copied, modified, or distributed except according to those terms.
 
 use yew::prelude::*;
-use yew_router::{router::Router, Switch};
 
-use crate::component::{Index, Teams};
+pub struct Index;
 
-#[derive(Clone, Debug, Switch)]
-pub enum AppRoute {
-    #[to = "/teams"]
-    Teams,
-    #[to = "/"]
-    Index,
-}
-
-pub struct App;
-
-impl Component for App {
+impl Component for Index {
     type Message = ();
     type Properties = ();
 
     fn create(_: Self::Properties, _link: ComponentLink<Self>) -> Self {
-        App
+        Index
     }
 
     fn update(&mut self, _: Self::Message) -> ShouldRender {
@@ -38,14 +27,7 @@ impl Component for App {
 
     fn view(&self) -> Html {
         html! {
-            <Router<AppRoute, ()>
-                render = Router::render(|switch: AppRoute| {
-                    match switch {
-                        AppRoute::Index => html!{ <Index /> },
-                        AppRoute::Teams => html!{ <Teams /> },
-                    }
-                })
-            />
+            <p>{"Index!"}</p>
         }
     }
 }
