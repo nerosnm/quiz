@@ -1,0 +1,11 @@
+//  {(?:[a-z0-9_\-]+/)*[a-z0-9_\-]+}.rs
+//  {[a-z0-9_\-]+}
+//
+//  Created by {\w+} {\w+} <{.+}@{.+}> on {\d{4}-\d{2}-\d{2}}.
+//  Copyright (c) 20{\d{2}} {\w+} {\w+}.
+//
+//  Licensed under the Apache License, Version 2.0, <LICENSE-APACHE or
+//  http://apache.org/licenses/LICENSE-2.0> or the MIT license <LICENSE-MIT or
+//  http://opensource.org/licenses/MIT>, at your option. This file may not be
+//  copied, modified, or distributed except according to those terms.
+

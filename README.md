@@ -1,0 +1,37 @@
+# Quiz
+
+Quiz is the frontend half of Quizzical, a web app for running virtual pub quizzes.
+
+## Dependencies
+
+- [`rustup`](https://rustup.rs/)
+- [`wasm-pack`](https://rustwasm.github.io/wasm-pack/installer/)
+- [`node`](https://nodejs.org/)
+- [`yarn`](https://yarnpkg.com/getting-started/install)
+
+## Build
+
+First, run `yarn install`, then:
+
+### Development
+
+To build the app and run it using a development server, run:
+
+```bash
+$ yarn start:dev
+```
+
+### Production
+
+To build the app in production mode, run:
+
+```bash
+$ yarn build
+```
+
+The app can then be started in production mode with:
+
+```bash
+$ yarn start:prod
+```
+
