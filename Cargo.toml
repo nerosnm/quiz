@@ -9,6 +9,7 @@ publish = false
 
 description = "Web app for running virtual pub quizzes."
 homepage = "https://github.com/nerosnm/quiz"
+repository = "https://github.com/nerosnm/quiz"
 readme = "README.md"
 
 [lib]
