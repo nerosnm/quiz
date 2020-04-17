@@ -3,7 +3,7 @@ const WasmPackPlugin = require('@wasm-tool/wasm-pack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  entry: './bootstrap.js',
+  entry: './js/bootstrap.js',
   plugins: [
     new CopyWebpackPlugin([
       { from: './static' }
