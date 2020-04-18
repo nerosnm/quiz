@@ -13,6 +13,7 @@
 
 mod app;
 mod component;
+mod error;
 mod utils;
 
 use wasm_bindgen::prelude::*;
