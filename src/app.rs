@@ -12,7 +12,7 @@
 use yew::prelude::*;
 use yew_router::{router::Router, Switch};
 
-use crate::component::{Index, Teams};
+use crate::component::{Index, TeamsList};
 
 #[derive(Clone, Debug, Switch)]
 pub enum AppRoute {
@@ -41,8 +41,8 @@ impl Component for App {
             <Router<AppRoute, ()>
                 render = Router::render(|switch: AppRoute| {
                     match switch {
-                        AppRoute::Index => html!{ <Index /> },
-                        AppRoute::Teams => html!{ <Teams /> },
+                        AppRoute::Index => html! { <Index /> },
+                        AppRoute::Teams => html! { <TeamsList /> },
                     }
                 })
             />
