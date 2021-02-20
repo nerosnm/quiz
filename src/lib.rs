@@ -11,8 +11,14 @@
 
 #![recursion_limit = "512"]
 
+#[macro_use]
+extern crate lazy_static;
+
+mod agent;
 mod app;
 mod component;
+mod error;
+mod types;
 mod utils;
 
 use wasm_bindgen::prelude::*;

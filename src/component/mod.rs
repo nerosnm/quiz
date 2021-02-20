@@ -13,4 +13,4 @@ mod index;
 mod teams;
 
 pub use index::Index;
-pub use teams::Teams;
+pub use teams::TeamsList;
